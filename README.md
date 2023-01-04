@@ -11,7 +11,7 @@ CEMC Website: https://cemc.uwaterloo.ca/contests/past_contests.html
 3. Download the Test Data
 4. Extract the senior or junior folder into the input directory in the grader project
 5. Copy your python file (.py) into the input folder
-6. Run the grader.py file using python
+6. Run the grader.py file using python and answer the prompt to the question you are grading (i.e. S1, S2, ...)
 7. Enjoy your grader. It will tell you your time and incorrect test cases
 
 _Note: This program will run the code on your computer which is assuredly faster than the computers that actually grade the contest, hence a margin of error is created._
