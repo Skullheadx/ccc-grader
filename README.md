@@ -1,17 +1,12 @@
-# CCC-Grader
+# General Grader
 
-_Python Code to grade solutions to the CCC using test data from their website._
-
-CEMC Website: https://cemc.uwaterloo.ca/contests/past_contests.html
+Python Code to grade a program using test data.
 
 ------------------------------------------------------------------
 **HOW TO USE**:
-1. Scroll to the bottom of https://cemc.uwaterloo.ca/contests/past_contests.html
-2. Click on the contest you are attempting
-3. Download the Test Data
-4. Extract the senior or junior folder into the input directory in the grader project
-5. Copy your python file (.py) into the input folder
-6. Run the grader.py file using python and answer the prompt to the question you are grading (i.e. S1, S2, ...)
-7. Enjoy your grader. It will tell you your time and incorrect test cases
-
-_Note: This program will run the code on your computer which is assuredly faster than the computers that actually grade the contest, hence a margin of error is created._
+1. Insert the program input data files into the 'tests/input' directory.
+2. Insert the program output data files into the 'tests/output' directory. 
+(the output files must be in the same order as the input files)
+3. Insert the program you want to grade into the 'code/' directory. It must be named 'main.py'
+4. Run the grader.py file using python.
+5. Enjoy your grader. It will tell you your time and incorrect test cases
